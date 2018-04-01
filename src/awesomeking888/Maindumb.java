@@ -33,6 +33,40 @@ public class Maindumb {
 		else
 			System.out.println("Less than 444 but not 888");
 		System.out.println("LMAO I DE BEST U CANNOT BEAT MEH");
+		
+		for(int i = 0; i < 10;i++) {
+			for(int j = 0; j < 9;j++) {
+				System.out.print("legit stfu man	 ");
+		}
+				System.out.println();
+		}
+		int [] w = {1, 2, 1, 2};
+		System.out.println(w.length);
+		for(int s = 0; s < w.length;s++) {
+			System.out.println(w[s]);
+		}	
+		
+		javax.swing.JFrame frame = new javax.swing.JFrame();
+		javax.swing.JButton button = new javax.swing.JButton("What?");
+		frame.getContentPane().add(button);
+		button.addActionListener(new MyActionListener());
+		frame.setTitle("AwesomeKing888");
+		frame.resize(800, 500);
+		frame.setVisible(true);
 	}
+	
 
-	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
